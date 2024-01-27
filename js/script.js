@@ -1,5 +1,5 @@
 function validarEntrada(texto) {
-  const regex = /^[a-z ]+$/; // Aceita apenas letras minúsculas e espaços
+  const regex = /^[a-z ]+$/; 
   return regex.test(texto);
 }
 

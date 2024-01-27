@@ -6,7 +6,7 @@
 }
 
 body {
-    height:  100vh;
+    
     box-sizing: border-box;
     background-image: url("../img/Dragon.png");
     background-repeat: no-repeat;
@@ -117,7 +117,54 @@ footer {
     padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 100% 100%; 
+    }
 
+    .main {
+        flex-direction: column; 
+        margin: 3%; 
+    }
+
+    .main__input-right,
+    .main__input-left {
+        width: 70%; 
+        max-width: none; 
+        height: 35vh; 
+    }
+
+    .main__button {
+        padding: 10px; 
+        font-size: 1rem; 
+    }
+
+    .buttons {
+        margin-top: 15px; 
+    }
+
+    footer {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .footer__texto {
+        padding: 5% 0; 
+        text-align: center; 
+    }
+
+    .footer__logos {
+        margin-top: 10px; 
+    }
+
+    .footer__logos img {
+        width: 80%; 
+    }
+
+    .footer__texto {
+        font-size: 0.9rem; 
+    }
+}
 
 
     
